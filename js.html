@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Legend{
+            font-weight: 600;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+
+
+    <script>
+        var h1=document.createElement("h1")
+        h1.textContent="Sruthi Korangi"
+        h1.style.textAlign="center"
+
+        var hr=document.createElement("hr")
+
+        var feild=document.createElement("fieldset")
+        var legend=document.createElement("legend")
+        legend.textContent="Career Objective"
+        legend.className="Legend"
+
+        var p=document.createElement("p")
+        p.textContent="Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur temporibus quae consequuntur eum in architecto tenetur odit, dolorum cumque vel quasi blanditiis adipisci? Veritatis nihil hic doloribus deserunt saepe!"
+
+        var h3t=document.createElement("h3")
+        h3t.textContent="Technical Skills:"
+
+        var ul1=document.createElement("ul")
+        var li1=document.createElement("li")
+        li1.textContent="HTML"
+        var li2=document.createElement("li")
+        li2.textContent="CSS"
+        var li3=document.createElement("li")
+        li3.textContent="JavaScript"
+        var li4=document.createElement("li")
+        li4.textContent="Python(Basics)"
+        var li5=document.createElement("li")
+        li5.textContent="SQL(Basics)"
+        var li6=document.createElement("li")
+        li6.textContent="Bootstrap"
+        var li7=document.createElement("li")
+        li7.textContent="Git"
+
+        var h3h=document.createElement("h3")
+        h3h.textContent="Hobbies:"
+
+        var ul2=document.createElement("ul")
+        var li11=document.createElement("li")
+        li11.textContent="Listening Music"
+        var li12=document.createElement("li")
+        li12.textContent="Dancing"
+        var li13=document.createElement("li")
+        li13.textContent="Cooking"
+
+        var h3d=document.createElement("h3")
+        h3d.textContent="Description:"
+
+        var pd=document.createElement("p")
+        pd.textContent="Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio consequatur temporibus quae consequuntur eum in architecto tenetur odit, dolorum cumque vel quasi blanditiis adipisci? Veritatis nihil hic doloribus deserunt saepe!"
+       
+        
+        feild.append(legend,p)
+        ul1.append(li1,li2,li3,li4,li5,li6,li7)
+        ul2.append(li11,li12,li13)
+        document.body.append(h1,hr,feild,h3t,ul1,h3h,ul2,h3d,pd);
+    </script>
+</body>
+</html>
